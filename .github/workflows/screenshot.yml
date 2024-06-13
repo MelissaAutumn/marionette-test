@@ -32,7 +32,7 @@ jobs:
       run: chmod +x ./tb/thunderbird/thunderbird-bin
 
     - name: Install reqs
-      run: pip install ./requirements.lock
+      run: pip install -r ./requirements.lock
 
     - name: Run Thunderbird
       run: ./tb/thunderbird/thunderbird-bin --headless --marionette &
