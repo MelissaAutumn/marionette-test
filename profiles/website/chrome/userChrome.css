@@ -1,5 +1,5 @@
 /* Hide status bar text */
 #statusText {
-  display: none !important;
-  /*color: red !important;*/
+  /*display: none !important;*/
+  color: red !important;
 }
