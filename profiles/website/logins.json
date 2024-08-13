@@ -3,8 +3,8 @@
   "logins": [
     {
       "id": 1,
-      "hostname": "imap://10.0.16.32",
-      "httpRealm": "imap://10.0.16.32",
+      "hostname": "imap://localhost",
+      "httpRealm": "imap://localhost",
       "formSubmitURL": null,
       "usernameField": "",
       "passwordField": "",
@@ -17,7 +17,7 @@
       "timePasswordChanged": 1723568950529,
       "timesUsed": 1,
       "syncCounter": 1,
-      "everSynced": true,
+      "everSynced": false,
       "encryptedUnknownFields": "MDIEEPgAAAAAAAAAAAAAAAAAAAEwFAYIKoZIhvcNAwcECEYvbea6NyFMBAiSZh8GI1fbRg=="
     }
   ],

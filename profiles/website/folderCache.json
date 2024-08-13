@@ -1,5 +1,5 @@
 {
-	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1" : 
+	"/home/runner/work/marionette-test/marionette-test/profiles/website/ImapMail/127.0.0.1" : 
 	{
 		"aclFlags" : 0,
 		"boxFlags" : 0,
@@ -17,7 +17,7 @@
 		"totalMsgs" : -1,
 		"totalUnreadMsgs" : -1
 	},
-	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1/Archives.msf" : 
+	"/home/runner/work/marionette-test/marionette-test/profiles/website/ImapMail/127.0.0.1/Archives.msf" : 
 	{
 		"aclFlags" : 0,
 		"boxFlags" : 0,
@@ -34,7 +34,7 @@
 		"totalMsgs" : 0,
 		"totalUnreadMsgs" : 0
 	},
-	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1/Drafts.msf" : 
+	"/home/runner/work/marionette-test/marionette-test/profiles/website/ImapMail/127.0.0.1/Drafts.msf" : 
 	{
 		"aclFlags" : 0,
 		"boxFlags" : 0,
@@ -51,7 +51,7 @@
 		"totalMsgs" : 0,
 		"totalUnreadMsgs" : 0
 	},
-	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1/INBOX-1.msf" : 
+	"/home/runner/work/marionette-test/marionette-test/profiles/website/ImapMail/127.0.0.1/INBOX-1.msf" : 
 	{
 		"aclFlags" : 0,
 		"applyIncomingFilters" : "",
@@ -71,7 +71,7 @@
 		"totalUnreadMsgs" : 0,
 		"useServerRetention" : "1"
 	},
-	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1/INBOX-2.msf" : 
+	"/home/runner/work/marionette-test/marionette-test/profiles/website/ImapMail/127.0.0.1/INBOX-2.msf" : 
 	{
 		"aclFlags" : 0,
 		"applyIncomingFilters" : "",
@@ -89,7 +89,7 @@
 		"totalMsgs" : 0,
 		"totalUnreadMsgs" : 0
 	},
-	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1/INBOX-3.msf" : 
+	"/home/runner/work/marionette-test/marionette-test/profiles/website/ImapMail/127.0.0.1/INBOX-3.msf" : 
 	{
 		"MRUTime" : "1723571261",
 		"aclFlags" : 0,
@@ -112,7 +112,7 @@
 		"totalUnreadMsgs" : 0,
 		"useServerRetention" : "1"
 	},
-	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1/INBOX.msf" : 
+	"/home/runner/work/marionette-test/marionette-test/profiles/website/ImapMail/127.0.0.1/INBOX.msf" : 
 	{
 		"MRUTime" : "1723584682",
 		"aclFlags" : 0,
@@ -136,7 +136,7 @@
 		"totalUnreadMsgs" : 4,
 		"useServerRetention" : "0"
 	},
-	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1/Junk.msf" : 
+	"/home/runner/work/marionette-test/marionette-test/profiles/website/ImapMail/127.0.0.1/Junk.msf" : 
 	{
 		"aclFlags" : 0,
 		"boxFlags" : 0,
@@ -153,7 +153,7 @@
 		"totalMsgs" : 0,
 		"totalUnreadMsgs" : 0
 	},
-	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1/Sent.msf" : 
+	"/home/runner/work/marionette-test/marionette-test/profiles/website/ImapMail/127.0.0.1/Sent.msf" : 
 	{
 		"aclFlags" : 0,
 		"boxFlags" : 0,
@@ -170,7 +170,7 @@
 		"totalMsgs" : 0,
 		"totalUnreadMsgs" : 0
 	},
-	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1/Templates.msf" : 
+	"/home/runner/work/marionette-test/marionette-test/profiles/website/ImapMail/127.0.0.1/Templates.msf" : 
 	{
 		"aclFlags" : 0,
 		"boxFlags" : 0,
@@ -187,7 +187,7 @@
 		"totalMsgs" : 0,
 		"totalUnreadMsgs" : 0
 	},
-	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/Local Folders" : 
+	"/home/runner/work/marionette-test/marionette-test/profiles/website/Mail/Local Folders" : 
 	{
 		"expungedBytes" : 0,
 		"flags" : 28,
@@ -198,7 +198,7 @@
 		"totalMsgs" : -1,
 		"totalUnreadMsgs" : -1
 	},
-	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/Local Folders/Trash.msf" : 
+	"/home/runner/work/marionette-test/marionette-test/profiles/website/Mail/Local Folders/Trash.msf" : 
 	{
 		"MRUTime" : "1723584422",
 		"expungedBytes" : 0,
@@ -212,7 +212,7 @@
 		"totalUnreadMsgs" : 0,
 		"useServerRetention" : "1"
 	},
-	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/Local Folders/Unsent Messages.msf" : 
+	"/home/runner/work/marionette-test/marionette-test/profiles/website/Mail/Local Folders/Unsent Messages.msf" : 
 	{
 		"expungedBytes" : 0,
 		"flags" : 2052,
