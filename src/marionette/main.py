@@ -31,7 +31,7 @@ def run():
     tabs[0].click()
 
     # Wait until start page is loaded-ish
-    time.sleep(1)
+    time.sleep(5)
 
     # Dump screenshot into out.png
     with open('./mail-screen.png', 'wb') as fh:
