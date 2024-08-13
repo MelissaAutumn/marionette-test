@@ -9,6 +9,7 @@
 // - modify it via the UI (e.g. via about:config in the browser); or
 // - set it within a user.js file in your profile.
 user_pref("layout.css.devPixelsPerPx", "2");
+user_pref("mail.server.server1.login_at_startup", false);
 
 user_pref("app.donation.eoy.version.viewed", 6);
 user_pref("app.update.download.attempts", 0);

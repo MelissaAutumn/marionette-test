@@ -51,67 +51,6 @@
 		"totalMsgs" : 0,
 		"totalUnreadMsgs" : 0
 	},
-	"/home/runner/work/marionette-test/marionette-test/profiles/website/ImapMail/127.0.0.1/INBOX-1.msf" : 
-	{
-		"aclFlags" : 0,
-		"applyIncomingFilters" : "",
-		"boxFlags" : 0,
-		"expungedBytes" : 0,
-		"flags" : 134230036,
-		"folderSize" : -1,
-		"hierDelim" : 94,
-		"indexingPriority" : "",
-		"onlineName" : "INBOX",
-		"pendingMsgs" : 0,
-		"pendingUnreadMsgs" : 0,
-		"serverRecent" : 0,
-		"serverTotal" : 0,
-		"serverUnseen" : 0,
-		"totalMsgs" : 0,
-		"totalUnreadMsgs" : 0,
-		"useServerRetention" : "1"
-	},
-	"/home/runner/work/marionette-test/marionette-test/profiles/website/ImapMail/127.0.0.1/INBOX-2.msf" : 
-	{
-		"aclFlags" : 0,
-		"applyIncomingFilters" : "",
-		"boxFlags" : 0,
-		"expungedBytes" : 0,
-		"flags" : 134230036,
-		"folderSize" : -1,
-		"hierDelim" : 94,
-		"onlineName" : "INBOX",
-		"pendingMsgs" : 0,
-		"pendingUnreadMsgs" : 0,
-		"serverRecent" : 0,
-		"serverTotal" : 0,
-		"serverUnseen" : 0,
-		"totalMsgs" : 0,
-		"totalUnreadMsgs" : 0
-	},
-	"/home/runner/work/marionette-test/marionette-test/profiles/website/ImapMail/127.0.0.1/INBOX-3.msf" : 
-	{
-		"MRUTime" : "1723571261",
-		"aclFlags" : 0,
-		"applyIncomingFilters" : "",
-		"boxFlags" : 2097216,
-		"dobayes.mailnews@mozilla.org#junk" : "",
-		"expungedBytes" : 27038,
-		"flags" : 134754324,
-		"folderSize" : 3337,
-		"hierDelim" : 47,
-		"lastSyncTimeInSec" : 1723568418,
-		"nextUID" : 93,
-		"onlineName" : "INBOX",
-		"pendingMsgs" : 0,
-		"pendingUnreadMsgs" : 0,
-		"serverRecent" : 0,
-		"serverTotal" : 13,
-		"serverUnseen" : 0,
-		"totalMsgs" : 0,
-		"totalUnreadMsgs" : 0,
-		"useServerRetention" : "1"
-	},
 	"/home/runner/work/marionette-test/marionette-test/profiles/website/ImapMail/127.0.0.1/INBOX.msf" : 
 	{
 		"MRUTime" : "1723584682",
