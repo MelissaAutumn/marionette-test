@@ -35,6 +35,10 @@ jobs:
     - name: Install reqs
       run: pip install -r ./requirements.lock
 
+    - name: Add hosts to /etc/hosts
+      run: |
+        sudo echo "127.0.0.1 localhost" | sudo tee -a /etc/hosts
+
     - name: Run Screenshot Script
       run: M_THUNDERBIRD_PROFILE=./profiles/website M_THUNDERBIRD_BIN=./tb/thunderbird/thunderbird-bin python src/marionette/main.py
 
