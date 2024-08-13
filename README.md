@@ -12,7 +12,10 @@ This project uses [rye](https://rye.astral.sh/). Alternatively just run `pip ins
 
 ## Running
 
-Run any Thunderbird application with the arguments `--headless --marionette` and then run the python script located in `src/marionette/main.py`.
+
+``` bash
+M_THUNDERBIRD_BIN=<path to thunderbird-bin> M_THUNDERBIRD_PROFILE=./profiles/website python src/marionette/main.py` 
+```
 
 ## Fake Mailserver
 
@@ -21,3 +24,5 @@ Create a user in the UI with:
 * Pass: test
 
 `docker run --rm -it -p 5000:80 -p 2525:25 -p 143:143 rnwood/smtp4dev`
+
+Adjust `src/marionette/fake_mail.yml` to your liking, and then run `src/marionette/send_fake_mail.py`.

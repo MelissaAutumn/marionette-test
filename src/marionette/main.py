@@ -21,7 +21,7 @@ def run():
     # Enable userchrome
     marionette.set_pref('toolkit.legacyUserProfileCustomizations.stylesheets', True)
     # Enforce non-native titlebar buttons
-    marionette.set_pref('widget.gtk.non-native-titlebar-buttons.enabled', True)
+    #marionette.set_pref('widget.gtk.non-native-titlebar-buttons.enabled', True)
     marionette.restart()
 
     marionette.set_window_rect(0, 0, 720, 1280)

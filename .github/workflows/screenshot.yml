@@ -12,7 +12,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  pytest:
+  screenshot:
     runs-on: ubuntu-latest
 
     steps:
