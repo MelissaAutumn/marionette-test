@@ -104,7 +104,7 @@ user_pref("mail.server.server1.numHdrsToKeep", 2000);
 user_pref("mail.server.server1.socketType", 0);
 user_pref("mail.server.server1.spamActionTargetAccount", "imap://me%40example.org@127.0.0.1");
 user_pref("mail.server.server1.storeContractID", "@mozilla.org/msgstore/berkeleystore;1");
-user_pref("mail.server.server1.timeout", 29);
+user_pref("mail.server.server1.timeout", 1);
 user_pref("mail.server.server1.type", "imap");
 user_pref("mail.server.server1.use_idle", false);
 user_pref("mail.server.server1.userName", "me@example.org");
