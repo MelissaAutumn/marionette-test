@@ -26,6 +26,15 @@ def run():
 
     marionette.set_window_rect(0, 0, 720, 1280)
 
+    calendar_btn: HTMLElement = marionette.find_element('id', 'calendarButton')
+    calendar_btn.click()
+
+    time.sleep(1)
+
+    # Dump screenshot into out.png
+    with open('./calendar-screen.png', 'wb') as fh:
+        marionette.save_screenshot(fh)
+
     # Click to activate start page
     tabs: list[HTMLElement] = marionette.find_elements('class name', 'tabmail-tab')
     tabs[0].click()
@@ -35,15 +44,6 @@ def run():
 
     # Dump screenshot into out.png
     with open('./mail-screen.png', 'wb') as fh:
-        marionette.save_screenshot(fh)
-
-    calendar_btn: HTMLElement = marionette.find_element('id', 'calendarButton')
-    calendar_btn.click()
-
-    time.sleep(1)
-
-    # Dump screenshot into out.png
-    with open('./calendar-screen.png', 'wb') as fh:
         marionette.save_screenshot(fh)
 
     marionette.delete_session()
