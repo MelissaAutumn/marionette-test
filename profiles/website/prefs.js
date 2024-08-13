@@ -8,8 +8,8 @@
 // To change a preference value, you can either:
 // - modify it via the UI (e.g. via about:config in the browser); or
 // - set it within a user.js file in your profile.
+
 user_pref("layout.css.devPixelsPerPx", "2");
-user_pref("mail.server.server1.login_at_startup", false);
 
 user_pref("app.donation.eoy.version.viewed", 6);
 user_pref("app.update.download.attempts", 0);
@@ -99,7 +99,8 @@ user_pref("mail.server.server1.downloadByDate", false);
 user_pref("mail.server.server1.downloadUnreadOnly", false);
 user_pref("mail.server.server1.hostname", "localhost");
 user_pref("mail.server.server1.lastFilterTime", 28726407);
-user_pref("mail.server.server1.max_cached_connections", 5);
+user_pref("mail.server.server1.download_on_biff", false);
+user_pref("mail.server.server1.max_cached_connections", 1);
 user_pref("mail.server.server1.name", "me@example.org");
 user_pref("mail.server.server1.nextFilterTime", 28726417);
 user_pref("mail.server.server1.numHdrsToKeep", 2000);
