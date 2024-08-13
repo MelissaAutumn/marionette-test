@@ -6,7 +6,7 @@
 		"expungedBytes" : 0,
 		"flags" : 0,
 		"folderSize" : -1,
-		"hierDelim" : 94,
+		"hierDelim" : 47,
 		"lastSyncTimeInSec" : 0,
 		"onlineName" : "",
 		"pendingMsgs" : 0,
@@ -114,17 +114,17 @@
 	},
 	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1/INBOX.msf" : 
 	{
-		"MRUTime" : "1723571356",
+		"MRUTime" : "1723584682",
 		"aclFlags" : 0,
 		"applyIncomingFilters" : "",
 		"boxFlags" : 2097216,
 		"dobayes.mailnews@mozilla.org#junk" : "",
-		"expungedBytes" : 0,
-		"flags" : 134754324,
+		"expungedBytes" : 4000,
+		"flags" : 403189780,
 		"folderSize" : 3337,
 		"hierDelim" : 47,
 		"indexingPriority" : "",
-		"lastSyncTimeInSec" : 1723571317,
+		"lastSyncTimeInSec" : 1723584411,
 		"nextUID" : 1,
 		"onlineName" : "INBOX",
 		"pendingMsgs" : 0,
@@ -133,7 +133,8 @@
 		"serverTotal" : 13,
 		"serverUnseen" : 0,
 		"totalMsgs" : 13,
-		"totalUnreadMsgs" : 2
+		"totalUnreadMsgs" : 4,
+		"useServerRetention" : "0"
 	},
 	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1/Junk.msf" : 
 	{
@@ -199,6 +200,7 @@
 	},
 	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/Local Folders/Trash.msf" : 
 	{
+		"MRUTime" : "1723584422",
 		"expungedBytes" : 0,
 		"flags" : 260,
 		"folderName" : "Trash",

@@ -181,3 +181,186 @@ References:
 
 Hello World!
 
+From 
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+Subject: Improve your Accounting with AP Process
+From: Alessandro Castellani <alessandro@example.org>
+To: me@example.org
+Message-ID:
+References:
+
+Hello World!
+
+From 
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+Subject: Let's Fly! It's Time for Thunderbird 128
+From: Laurel Terlesky <laurel@example.org>
+To: me@example.org
+Message-ID:
+References:
+
+Hello World!
+
+From 
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+Subject: Introducing Acme Corp's latest offer
+From: Micah Ilbery <micah@example.org>
+To: me@example.org
+Message-ID:
+References:
+
+Hello World!
+
+From 
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+Subject: Acme Corp newsletter: December edition
+From: Solange Valverde <solange@example.org>
+To: me@example.org
+Message-ID: <thread1>
+References:
+
+Hello World!
+
+From 
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+Subject: Acme Corp newsletter: December edition
+From: Melissa Autumn <melissa@example.org>
+To: Solange Valverde <solange@example.org>, me@example.org
+Message-ID: <thread1-reply1>
+References: <thread1>
+
+Hello World!
+
+From 
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+Subject: Acme Corp newsletter: December edition
+From: monica@example.org
+To: Solange Valverde <solange@example.org>,
+ Monica Ayhens-Madon <monica@example.org>, me@example.org
+Message-ID:
+References: <thread1> <thread1-reply1>
+
+Hello World!
+
+From 
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+Subject: Ten ways to improve your time with Acme Product!
+From: Natalie Ivanova <natalie@example.org>
+To: me@example.org
+Message-ID:
+References:
+
+Hello World!
+
+From 
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+Subject: Thank you for choosing Acme Corp
+From: Margaret Baker <margaret@example.org>
+To: me@example.org
+Message-ID:
+References:
+
+Hello World!
+
+From 
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+Subject: The unexpected synergy of serpents and Acme Corp
+From: Ikey Doherty <ikey@example.org>
+To: me@example.org
+Message-ID:
+References:
+
+Hello World!
+
+From 
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+Subject: New product launch: GPT for Business Decisions
+From: Ryan Sipes <ryan@example.org>
+To: me@example.org
+Message-ID:
+References:
+
+Hello World!
+
+From 
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+Subject: RE: Your support case (#12345)
+From: Andrei Hajdukewycz
+To: me@example.org
+Message-ID:
+References:
+
+Hello World!
+
+From 
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+Subject: Your support case (#12345)
+From: Kelly McSweeney
+To: me@example.org
+Message-ID:
+References:
+
+Hello World!
+
+From 
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+Subject: Fun nebula facts!
+From: Alex Schmitz
+To: me@example.org
+Message-ID:
+References:
+
+Hello World!
+
