@@ -5,9 +5,9 @@ from marionette_driver.marionette import Marionette, HTMLElement
 
 def run():
     """This needs to be wrapped in a function so marionette doesn't crash on clean-up"""
-    binary_path = os.getenv('THUNDERBIRD_BIN', '/Applications/Thunderbird.app/Contents/MacOS/thunderbird')
+    binary_path = os.getenv('M_THUNDERBIRD_BIN', '/Applications/Thunderbird.app/Contents/MacOS/thunderbird')
 
-    marionette = Marionette(app='thunderbird', bin=binary_path, headless=True, profile='../../profiles/website')
+    marionette = Marionette(app='thunderbird', bin=binary_path, headless=True, profile=os.getenv('M_THUNDERBIRD_PROFILE', '../../profiles/website'))
 
     session = marionette.start_session()
     print("Session -> ",session)

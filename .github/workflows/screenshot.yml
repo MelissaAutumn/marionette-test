@@ -38,7 +38,7 @@ jobs:
     #  run: ./tb/thunderbird/thunderbird-bin --headless --marionette &
 
     - name: Run Screenshot Script
-      run: THUNDERBIRD_BIN=./tb/thunderbird/thunderbird-bin python src/marionette/main.py
+      run: M_THUNDERBIRD_PROFILE=./profiles/website M_THUNDERBIRD_BIN=./tb/thunderbird/thunderbird-bin python src/marionette/main.py
 
     - uses: actions/upload-artifact@v4
       with:
