@@ -20,7 +20,8 @@ jobs:
 
     - uses: actions/setup-python@v5
       with:
-        python-version: '3.11'
+        python-version: '3.12'
+        cache: 'pip' # caching pip dependencies
 
     - name: Download Thunderbird
       run: wget https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/128.1.0esr/linux-x86_64/en-CA/thunderbird-128.1.0esr.tar.bz2
@@ -34,9 +35,6 @@ jobs:
     - name: Install reqs
       run: pip install -r ./requirements.lock
 
-    #- name: Run Thunderbird
-    #  run: ./tb/thunderbird/thunderbird-bin --headless --marionette &
-
     - name: Run Screenshot Script
       run: M_THUNDERBIRD_PROFILE=./profiles/website M_THUNDERBIRD_BIN=./tb/thunderbird/thunderbird-bin python src/marionette/main.py
 
@@ -49,3 +47,8 @@ jobs:
       with:
         name: calendar-screen.png
         path: ./calendar-screen.png
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: gecko.log
+        path: ./gecko.log
