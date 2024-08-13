@@ -8,6 +8,7 @@ authors = [
 dependencies = [
     "marionette-driver>=3.4.0",
     "marionette-harness>=5.0.0",
+    "pyyaml>=6.0.2",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"

@@ -1,0 +1,48 @@
+me: me@example.org
+mail:
+  - subject: Improve your Accounting with AP Process
+    from: Alessandro Castellani <alessandro@example.org>
+
+  - subject: Let's Fly! It's Time for Thunderbird 128
+    from: Laurel Terlesky <laurel@example.org>
+
+  - subject: Introducing Acme Corp's latest offer
+    from: Micah Ilbery <micah@example.org>
+
+  # Start Thread
+  - subject: 'Acme Corp newsletter: December edition'
+    from: Solange Valverde <solange@example.org>
+    mid: <thread1>
+
+  - subject: 'Acme Corp newsletter: December edition'
+    from: Melissa Autumn <melissa@example.org>
+    to: Solange Valverde <solange@example.org>, me@example.org
+    mid: <thread1-reply1>
+    ref: <thread1>
+
+  - subject: 'Acme Corp newsletter: December edition'
+    from: monica@example.org
+    to: Solange Valverde <solange@example.org>, Monica Ayhens-Madon <monica@example.org>, me@example.org
+    ref: <thread1> <thread1-reply1>
+  # End Thread
+
+  - subject: Ten ways to improve your time with Acme Product!
+    from: Natalie Ivanova <natalie@example.org>
+
+  - subject: Thank you for choosing Acme Corp
+    from: Margaret Baker <margaret@example.org>
+
+  - subject: The unexpected synergy of serpents and Acme Corp
+    from: Ikey Doherty <ikey@example.org>
+
+  - subject: 'New product launch: GPT for Business Decisions'
+    from: Ryan Sipes <ryan@example.org>
+
+  - subject: 'RE: Your support case (#12345)'
+    from: Andrei Hajdukewycz
+
+  - subject: Your support case (#12345)
+    from: Kelly McSweeney
+
+  - subject: Fun nebula facts!
+    from: Alex Schmitz

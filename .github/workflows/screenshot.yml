@@ -23,10 +23,10 @@ jobs:
         python-version: '3.11'
 
     - name: Download Thunderbird
-      run: wget https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/115.11.1/linux-x86_64/en-CA/thunderbird-115.11.1.tar.bz2
+      run: wget https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/128.1.0esr/linux-x86_64/en-CA/thunderbird-128.1.0esr.tar.bz2
 
     - name: Untar Thunderbird
-      run: mkdir ./tb && tar -xf thunderbird-115.11.1.tar.bz2 -C ./tb
+      run: mkdir ./tb && tar -xf thunderbird-128.1.0esr.tar.bz2 -C ./tb
 
     - name: Allow exec
       run: chmod +x ./tb/thunderbird/thunderbird-bin
@@ -34,13 +34,18 @@ jobs:
     - name: Install reqs
       run: pip install -r ./requirements.lock
 
-    - name: Run Thunderbird
-      run: ./tb/thunderbird/thunderbird-bin --headless --marionette &
+    #- name: Run Thunderbird
+    #  run: ./tb/thunderbird/thunderbird-bin --headless --marionette &
 
     - name: Run Screenshot Script
-      run: python src/marionette/main.py
+      run: THUNDERBIRD_BIN=./tb/thunderbird/thunderbird-bin python src/marionette/main.py
 
     - uses: actions/upload-artifact@v4
       with:
-        name: screenshot.png
-        path: ./out.png
+        name: mail-screen.png
+        path: ./mail-screen.png
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: calendar-screen.png
+        path: ./calendar-screen.png

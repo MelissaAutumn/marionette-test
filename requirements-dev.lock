@@ -80,6 +80,8 @@ mozversion==2.4.0
     # via marionette-harness
 pywebsocket3==4.0.2
     # via wptserve
+pyyaml==6.0.2
+    # via marionette
 requests==2.32.3
     # via browsermob-proxy
 six==1.16.0
