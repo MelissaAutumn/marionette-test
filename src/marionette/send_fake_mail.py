@@ -1,4 +1,3 @@
-# Import smtplib for the actual sending function
 import smtplib
 import yaml
 
@@ -22,6 +21,23 @@ for mail in fake_mail:
     msg['To'] = mail.get('to', me)
     msg['Message-ID'] = mail.get('mid')
     msg['References'] = mail.get('ref')
+
+    if mail.get('image'):
+        image = mail.get('image')
+        with open('./background-image.html') as fh:
+            html = fh.read().format(cid=image)
+            print(html)
+            msg.add_alternative(html, subtype='html')
+
+        with open(image, 'rb') as fh:
+            # Attach it to the html payload
+            msg.get_payload()[1].add_related(
+                fh.read(),
+                'image',
+                'png',
+                cid=f'<{image}>',
+                filename=image
+            )
 
     s.send_message(msg)
 

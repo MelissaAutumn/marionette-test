@@ -5,6 +5,7 @@ mail:
 
   - subject: Let's Fly! It's Time for Thunderbird 128
     from: Laurel Terlesky <laurel@example.org>
+    image: body.png
 
   - subject: Introducing Acme Corp's latest offer
     from: Micah Ilbery <micah@example.org>

@@ -1,1 +1,1 @@
-{"defaultHandlersVersion":{},"mimeTypes":{"application/pdf":{"action":3,"extensions":["pdf"]}},"schemes":{},"isDownloadsImprovementsAlreadyMigrated":false}
+{"defaultHandlersVersion":{},"mimeTypes":{"application/pdf":{"action":3,"extensions":["pdf"]},"image/png":{"action":4,"ask":true,"extensions":["png"]}},"schemes":{},"isDownloadsImprovementsAlreadyMigrated":false}

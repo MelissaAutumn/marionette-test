@@ -1,6 +1,4 @@
 import os
-import socketserver
-import threading
 import time
 from marionette_driver.marionette import Marionette, HTMLElement
 
@@ -41,8 +39,13 @@ def run():
     tabs: list[HTMLElement] = marionette.find_elements('class name', 'tabmail-tab')
     tabs[0].click()
 
-    # Wait until start page is loaded-ish
-    #time.sleep(1)
+    # ...this feels illegal
+    # Select the 2nd message from the list!
+    marionette.execute_script("""
+    document.querySelectorAll('browser')[1].browsingContext.window.threadPane.treeTable.querySelector('#threadTree-row1').click();
+    """)
+
+    time.sleep(1)
 
     # Dump screenshot into out.png
     with open('./mail-screen.png', 'wb') as fh:
@@ -51,35 +54,7 @@ def run():
     marionette.delete_session()
 
 
-class ThreadedTCPRequestHandler(socketserver.BaseRequestHandler):
-
-    def handle(self):
-        print("Hi!", self.client_address)
-        data = str(self.request.recv(1024), 'ascii')
-        print("Received: ", data)
-        response = b'* OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID ENABLE IDLE AUTH=PLAIN AUTH=LOGIN] IMAP/POP3 ready - us11-012mip'
-        print("Sending Response: ", response)
-        self.request.sendall(response)
-
-class ThreadedTCPServer(socketserver.ThreadingMixIn, socketserver.TCPServer):
-    pass
-
 if __name__ == "__main__":
-    HOST, PORT = ('localhost', 14300)
-    server = ThreadedTCPServer((HOST, PORT), ThreadedTCPRequestHandler)
-    with server:
-        ip, port = server.server_address
-
-        # Start a thread with the server -- that thread will then start one
-        # more thread for each request
-        server_thread = threading.Thread(target=server.serve_forever)
-        # Exit the server thread when the main thread terminates
-        server_thread.daemon = True
-        server_thread.start()
-        print("Server loop running in thread:", server_thread.name)
-
-        print("Running Marionette...")
-        run()
-        print("Done!")
-
-        server.shutdown()
+    print("Running Marionette...")
+    run()
+    print("Done!")
