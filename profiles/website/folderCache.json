@@ -114,12 +114,12 @@
 	},
 	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1/INBOX.msf" : 
 	{
-		"MRUTime" : "1723661167",
+		"MRUTime" : "1723662735",
 		"aclFlags" : 0,
 		"applyIncomingFilters" : "",
 		"boxFlags" : 2097216,
 		"dobayes.mailnews@mozilla.org#junk" : "",
-		"expungedBytes" : 0,
+		"expungedBytes" : 11519648,
 		"flags" : 134754324,
 		"folderSize" : 11518985,
 		"hierDelim" : 47,
@@ -262,7 +262,7 @@
 	},
 	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/smart mailboxes/Inbox.msf" : 
 	{
-		"MRUTime" : "1723657292",
+		"MRUTime" : "1723662690",
 		"expungedBytes" : 0,
 		"flags" : 4132,
 		"folderName" : "Inbox",
