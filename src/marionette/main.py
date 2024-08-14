@@ -85,10 +85,10 @@ def run():
         setTimeout(() => {
             resolve("Done!");
         }, 2000);
-    }, 2000);
+    }, 1000);
     """)
 
-    #time.sleep(5)
+    time.sleep(1)
 
     # Dump screenshot into out.png
     with open('./mail-screen.png', 'wb') as fh:
