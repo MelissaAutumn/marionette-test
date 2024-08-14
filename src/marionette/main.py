@@ -33,6 +33,7 @@ def run():
     # This script sets some things unread, as tagged, and unhides the attachment icon. It then selects the main email.
     marionette.execute_script("""
     // Grab the list of messages
+    const tree = document.querySelectorAll('browser')[1].browsingContext.window.threadPane.treeTable.parentElement;
     let messages = document.querySelectorAll('browser')[1].browsingContext.window.threadPane.treeTable.querySelectorAll('.card-layout');
     const main = messages[1];
     const expanded = messages[3];
@@ -77,10 +78,8 @@ def run():
     newMsg.dataset['properties'] = 'unread new offline thread-children';
 
     // And finally, show the beautiful email!
-    setTimeout(() => {
-        messages[1].click();
-    }, 1000);
-    
+    messages[1].click();
+    tree.scrollTo(0,0);
     """)
 
     time.sleep(5)
