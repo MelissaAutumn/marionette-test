@@ -77,7 +77,10 @@ def run():
     newMsg.dataset['properties'] = 'unread new offline thread-children';
 
     // And finally, show the beautiful email!
-    messages[1].click();
+    setTimeout(() => {
+        messages[1].click();
+    }, 1000);
+    
     """)
 
     time.sleep(5)
