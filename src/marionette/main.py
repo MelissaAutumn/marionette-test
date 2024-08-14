@@ -80,7 +80,7 @@ def run():
     messages[1].click();
     """)
 
-    time.sleep(1)
+    time.sleep(5)
 
     # Dump screenshot into out.png
     with open('./mail-screen.png', 'wb') as fh:
