@@ -51,6 +51,10 @@ def run():
     
     // We've expanded an email, so refresh the emails here!
     messages = document.querySelectorAll('browser')[1].browsingContext.window.threadPane.treeTable.querySelectorAll('.card-layout');
+    
+    // Un-new everything!!
+    messages.forEach((el) => el.click());
+    
     const newMsg = messages[5];
 
     // Tag some mail
