@@ -78,7 +78,7 @@ def run():
 
     // And finally, show the beautiful email!
     messages[1].click();
-    tree.scrollTo(0,0);
+    //tree.scrollTo(0,0);
 
     setTimeout(() => {
         resolve("Done!");
