@@ -177,6 +177,6 @@ user_pref("services.settings.thunderbird.hijack-blocklists.last_check", 17236605
 user_pref("services.settings.thunderbird.search-config.last_check", 1723660521);
 user_pref("services.settings.thunderbird.url-classifier-skip-urls.last_check", 1723660521);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
-user_pref("toolkit.startup.last_success", 1723662734);
+user_pref("toolkit.startup.last_success", 1723662956);
 user_pref("toolkit.telemetry.cachedClientID", "40391c88-658c-47ab-9ef8-439d382e66d6");
 user_pref("toolkit.telemetry.previousBuildID", "20240730200333");
