@@ -1,0 +1,6 @@
+# Ignore some data we don't care about!
+*/saved-telemetry-pings
+*/minidumps
+*/datareporting
+*/chrome_debugger_profile
+*/crashes

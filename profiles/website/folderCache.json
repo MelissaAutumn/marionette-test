@@ -1,0 +1,422 @@
+{
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1" : 
+	{
+		"aclFlags" : 0,
+		"boxFlags" : 0,
+		"expungedBytes" : 0,
+		"flags" : 0,
+		"folderSize" : -1,
+		"hierDelim" : 47,
+		"lastSyncTimeInSec" : 0,
+		"onlineName" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"serverRecent" : 0,
+		"serverTotal" : 0,
+		"serverUnseen" : 0,
+		"totalMsgs" : -1,
+		"totalUnreadMsgs" : -1
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1/Archives.msf" : 
+	{
+		"aclFlags" : 0,
+		"boxFlags" : 0,
+		"expungedBytes" : 0,
+		"flags" : 16384,
+		"folderSize" : -1,
+		"hierDelim" : 94,
+		"onlineName" : "Archives",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"serverRecent" : 0,
+		"serverTotal" : 0,
+		"serverUnseen" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1/Drafts.msf" : 
+	{
+		"aclFlags" : 0,
+		"boxFlags" : 0,
+		"expungedBytes" : 0,
+		"flags" : 1024,
+		"folderSize" : -1,
+		"hierDelim" : 94,
+		"onlineName" : "Drafts",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"serverRecent" : 0,
+		"serverTotal" : 0,
+		"serverUnseen" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1/INBOX-1.msf" : 
+	{
+		"aclFlags" : 0,
+		"applyIncomingFilters" : "",
+		"boxFlags" : 0,
+		"expungedBytes" : 0,
+		"flags" : 134230036,
+		"folderSize" : -1,
+		"hierDelim" : 94,
+		"indexingPriority" : "",
+		"onlineName" : "INBOX",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"serverRecent" : 0,
+		"serverTotal" : 0,
+		"serverUnseen" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1"
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1/INBOX-2.msf" : 
+	{
+		"aclFlags" : 0,
+		"applyIncomingFilters" : "",
+		"boxFlags" : 0,
+		"expungedBytes" : 0,
+		"flags" : 134230036,
+		"folderSize" : -1,
+		"hierDelim" : 94,
+		"onlineName" : "INBOX",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"serverRecent" : 0,
+		"serverTotal" : 0,
+		"serverUnseen" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1/INBOX-3.msf" : 
+	{
+		"MRUTime" : "1723571261",
+		"aclFlags" : 0,
+		"applyIncomingFilters" : "",
+		"boxFlags" : 2097216,
+		"dobayes.mailnews@mozilla.org#junk" : "",
+		"expungedBytes" : 27038,
+		"flags" : 134754324,
+		"folderSize" : 3337,
+		"hierDelim" : 47,
+		"lastSyncTimeInSec" : 1723568418,
+		"nextUID" : 93,
+		"onlineName" : "INBOX",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"serverRecent" : 0,
+		"serverTotal" : 13,
+		"serverUnseen" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1"
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1/INBOX.msf" : 
+	{
+		"MRUTime" : "1723661167",
+		"aclFlags" : 0,
+		"applyIncomingFilters" : "",
+		"boxFlags" : 2097216,
+		"dobayes.mailnews@mozilla.org#junk" : "",
+		"expungedBytes" : 0,
+		"flags" : 134754324,
+		"folderSize" : 11518985,
+		"hierDelim" : 47,
+		"indexingPriority" : "",
+		"lastSyncTimeInSec" : 1723661178,
+		"nextUID" : 15,
+		"onlineName" : "INBOX",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"serverRecent" : 0,
+		"serverTotal" : 13,
+		"serverUnseen" : 2,
+		"totalMsgs" : 13,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "0"
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1/Junk.msf" : 
+	{
+		"aclFlags" : 0,
+		"boxFlags" : 0,
+		"expungedBytes" : 0,
+		"flags" : 1073741824,
+		"folderSize" : -1,
+		"hierDelim" : 94,
+		"onlineName" : "Junk",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"serverRecent" : 0,
+		"serverTotal" : 0,
+		"serverUnseen" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1/Sent.msf" : 
+	{
+		"aclFlags" : 0,
+		"boxFlags" : 0,
+		"expungedBytes" : 0,
+		"flags" : 512,
+		"folderSize" : -1,
+		"hierDelim" : 94,
+		"onlineName" : "Sent",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"serverRecent" : 0,
+		"serverTotal" : 0,
+		"serverUnseen" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/ImapMail/127.0.0.1/Templates.msf" : 
+	{
+		"aclFlags" : 0,
+		"boxFlags" : 0,
+		"expungedBytes" : 0,
+		"flags" : 4194304,
+		"folderSize" : -1,
+		"hierDelim" : 94,
+		"onlineName" : "Templates",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"serverRecent" : 0,
+		"serverTotal" : 0,
+		"serverUnseen" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/Local Folders" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 28,
+		"folderName" : "Local Folders",
+		"folderSize" : -1,
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : -1,
+		"totalUnreadMsgs" : -1
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/Local Folders/Trash.msf" : 
+	{
+		"MRUTime" : "1723584422",
+		"expungedBytes" : 0,
+		"flags" : 260,
+		"folderName" : "Trash",
+		"folderSize" : 0,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1"
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/Local Folders/Unsent Messages.msf" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 2052,
+		"folderName" : "Outbox",
+		"folderSize" : 0,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0,
+		"useServerRetention" : "1"
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/smart mailboxes" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 28,
+		"folderName" : "Unified Folders",
+		"folderSize" : -1,
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : -1,
+		"totalUnreadMsgs" : -1
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/smart mailboxes/Archives.msf" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 16420,
+		"folderName" : "Archives",
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/smart mailboxes/Drafts.msf" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 1060,
+		"folderName" : "Drafts",
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/smart mailboxes/Inbox.msf" : 
+	{
+		"MRUTime" : "1723657292",
+		"expungedBytes" : 0,
+		"flags" : 4132,
+		"folderName" : "Inbox",
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 13,
+		"totalUnreadMsgs" : 0
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/smart mailboxes/Junk.msf" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 1073741860,
+		"folderName" : "Junk",
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/smart mailboxes/Sent.msf" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 548,
+		"folderName" : "Sent",
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/smart mailboxes/Templates.msf" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 4194340,
+		"folderName" : "Templates",
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/smart mailboxes/Trash.msf" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 292,
+		"folderName" : "Trash",
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/smart mailboxes/tags.msf" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 4,
+		"folderName" : "tags",
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/smart mailboxes/tags.sbd/$label1.msf" : 
+	{
+		"MRUTime" : "1723654441",
+		"expungedBytes" : 0,
+		"flags" : 36,
+		"folderName" : "Important",
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 2,
+		"totalUnreadMsgs" : 0
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/smart mailboxes/tags.sbd/$label2.msf" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 36,
+		"folderName" : "Work",
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/smart mailboxes/tags.sbd/$label3.msf" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 36,
+		"folderName" : "Personal",
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/smart mailboxes/tags.sbd/$label4.msf" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 36,
+		"folderName" : "To Do",
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/smart mailboxes/tags.sbd/$label5.msf" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 36,
+		"folderName" : "Later",
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/smart mailboxes/tags.sbd/party_&2dzfiq-.msf" : 
+	{
+		"MRUTime" : "1723654332",
+		"expungedBytes" : 0,
+		"flags" : 36,
+		"folderName" : "Party \ud83c\udf89",
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 1,
+		"totalUnreadMsgs" : 0
+	},
+	"/Users/melissaautumn/Library/Thunderbird/Profiles/ubzgsxfk.marionette-test/Mail/smart mailboxes/tags.sbd/upgrade.msf" : 
+	{
+		"expungedBytes" : 0,
+		"flags" : 36,
+		"folderName" : "Upgrade",
+		"folderSize" : -1,
+		"indexingPriority" : "",
+		"pendingMsgs" : 0,
+		"pendingUnreadMsgs" : 0,
+		"totalMsgs" : 0,
+		"totalUnreadMsgs" : 0
+	}
+}

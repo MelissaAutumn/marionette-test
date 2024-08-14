@@ -1,0 +1,4 @@
+/* Hide status bar text */
+#statusText, #statusbar-progresspanel, #statusbar-icon, #quotaPanel {
+  visibility: hidden !important;
+}
