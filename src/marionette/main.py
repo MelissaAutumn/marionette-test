@@ -54,7 +54,7 @@ def run():
     messages = document.querySelectorAll('browser')[1].browsingContext.window.threadPane.treeTable.querySelectorAll('.card-layout');
     
     // Un-new everything!!
-    messages.forEach((el) => el.dataset['properties'].replace('new', ''));
+    //messages.forEach((el) => el.dataset['properties'].replace('new', ''));
     
     const newMsg = messages[5];
 
