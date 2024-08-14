@@ -31,7 +31,9 @@ def run():
     tabs[0].click()
 
     # This script sets some things unread, as tagged, and unhides the attachment icon. It then selects the main email.
-    marionette.execute_script("""
+    marionette.execute_async_script("""
+    let [resolve] = arguments;
+    
     // Grab the list of messages
     const tree = document.querySelectorAll('browser')[1].browsingContext.window.threadPane.treeTable.parentElement;
     let messages = document.querySelectorAll('browser')[1].browsingContext.window.threadPane.treeTable.querySelectorAll('.card-layout');
@@ -52,10 +54,7 @@ def run():
     
     // We've expanded an email, so refresh the emails here!
     messages = document.querySelectorAll('browser')[1].browsingContext.window.threadPane.treeTable.querySelectorAll('.card-layout');
-    
-    // Un-new everything!!
-    //messages.forEach((el) => el.dataset['properties'].replace('new', ''));
-    
+   
     const newMsg = messages[5];
 
     // Tag some mail
@@ -80,9 +79,13 @@ def run():
     // And finally, show the beautiful email!
     messages[1].click();
     tree.scrollTo(0,0);
+
+    setTimeout(() => {
+        resolve("Done!");
+    }, 5000);
     """)
 
-    time.sleep(5)
+    #time.sleep(5)
 
     # Dump screenshot into out.png
     with open('./mail-screen.png', 'wb') as fh:
