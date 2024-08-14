@@ -18,6 +18,14 @@ tar -xzf profiles.tar.gz
 M_THUNDERBIRD_BIN=<path to thunderbird-bin> M_THUNDERBIRD_PROFILE=./profiles/website python src/marionette/main.py` 
 ```
 
+## Adjust profile data
+
+Re-tar it after
+
+```bash
+tar -czf profiles.tar.gz ./profiles
+```
+
 ## Fake Mailserver
 
 Create a user in the UI with:
