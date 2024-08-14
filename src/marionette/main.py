@@ -22,7 +22,7 @@ def run():
     marionette.set_pref('toolkit.legacyUserProfileCustomizations.stylesheets', True)
     marionette.restart()
 
-    marionette.set_window_rect(0, 0, 768, 1360)
+    marionette.set_window_rect(0, 0, 745, 1190)
 
     time.sleep(1)
 
