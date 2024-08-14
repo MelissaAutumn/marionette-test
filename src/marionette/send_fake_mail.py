@@ -1,4 +1,6 @@
 import smtplib
+import time
+
 import yaml
 
 # Import the email modules we'll need
@@ -39,7 +41,9 @@ for mail in fake_mail:
                 filename=image
             )
 
+    print("Sending :", mail)
     s.send_message(msg)
+    time.sleep(0.25)
 
 
 s.quit()
