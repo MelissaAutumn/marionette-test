@@ -13,6 +13,8 @@ This project uses [rye](https://rye.astral.sh/). Alternatively just run `pip ins
 ## Running
 
 ``` bash
+tar -xzf profiles.tar.gz
+
 M_THUNDERBIRD_BIN=<path to thunderbird-bin> M_THUNDERBIRD_PROFILE=./profiles/website python src/marionette/main.py` 
 ```
 

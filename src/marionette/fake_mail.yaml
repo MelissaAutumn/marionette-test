@@ -5,7 +5,7 @@ mail:
 
   - subject: Let's Fly! It's Time for Thunderbird 128
     from: Laurel Terlesky <laurel@example.org>
-    image: body.png
+    image: nebula-email.png
 
   - subject: Introducing Acme Corp's latest offer
     from: Micah Ilbery <micah@example.org>
@@ -22,7 +22,7 @@ mail:
     ref: <thread1>
 
   - subject: 'Acme Corp newsletter: December edition'
-    from: monica@example.org
+    from: Monica Ayhens-Madon <monica@example.org>
     to: Solange Valverde <solange@example.org>, Monica Ayhens-Madon <monica@example.org>, me@example.org
     ref: <thread1> <thread1-reply1>
   # End Thread
@@ -33,17 +33,17 @@ mail:
   - subject: Thank you for choosing Acme Corp
     from: Margaret Baker <margaret@example.org>
 
-  - subject: The unexpected synergy of serpents and Acme Corp
+  - subject: 'Limited time offer: AP Process'
     from: Ikey Doherty <ikey@example.org>
 
   - subject: 'New product launch: GPT for Business Decisions'
     from: Ryan Sipes <ryan@example.org>
 
   - subject: 'RE: Your support case (#12345)'
-    from: Andrei Hajdukewycz
+    from: Andrei Hajdukewycz <support@example.org>
 
   - subject: Your support case (#12345)
-    from: Kelly McSweeney
+    from: Kelly McSweeney <support@example.org>
 
   - subject: Fun nebula facts!
-    from: Alex Schmitz
+    from: Alex Schmitz <alex@example.org>

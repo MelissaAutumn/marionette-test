@@ -11,5 +11,7 @@ wheels/
 .idea
 .DS_Store
 
-src/marionette/*.png
-src/marionette/gecko.log
+mail-screen.png
+calendar-screen.png
+gecko.log
+profiles

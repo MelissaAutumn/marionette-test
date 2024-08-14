@@ -29,6 +29,9 @@ jobs:
     - name: Untar Thunderbird
       run: mkdir ./tb && tar -xf thunderbird-128.1.0esr.tar.bz2 -C ./tb
 
+    - name: Untar profile
+      run: tar -xzf profiles.tar.gz
+
     - name: Allow exec
       run: chmod +x ./tb/thunderbird/thunderbird-bin
 
